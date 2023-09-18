@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.welcome-banner .header-back {
+    background-image: url(../img/black-woman-doubts-with-nail-file-touching-her-face.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    /* opacity: .85; */
+    /* background-attachment: fixed; */
+    /* position: absolute; */
+
+    /* filter: brightness(60%); */
+
+}
+
+
+.navbar {
+    background-color: white;
+    padding: 15px;
+    /* margin-top: 15px; */
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-links:hover {
+    background-color: blueviolet;
+    color: white;
+    transition-duration: .5s;
+    border-radius: 10px;
+}
+
+.tag-nav:hover {
+    color: rgba(255, 255, 255, 0.873);
+}
+
+.navbar-items {
+    display: flex;
+}
+
+.navbar-links {
+    list-style: none;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+/* welcome banner */
+
+.welcome {
+    padding-top: 12%;
+    margin-left: 10%;
+    width: 40%;
+}
+
+.welcome-banner {
+    /* position: relative; */
+    /* margin-top: 12.5%; */
+    text-align: center;
+    /* padding: 20px; */
+    /* border-radius: 10px; */
+
+
+}
+.log {
+    color: rgb(162, 21, 187);
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.child-1 {
+
+    font-size: 45px;
+    color: rgb(162, 21, 187);
+    margin-bottom: 10px;
+}
+
+.child-2 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+button {
+    width: 16%;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-top: 4%;
+    border: none;
+}
+#book{
+    color: white;
+    background-color: rgb(162, 21, 187);
+    transition-duration: .2s;
+}
+#learn{
+    transition-duration: .2s;
+    background-color: white;
+}
+#learn:hover{
+    cursor: pointer;
+box-shadow: 0px 0px 6px 1px rgb(91, 91, 91);
+}
+
+#book:hover{
+    cursor: pointer;
+    box-shadow: 0px  0px 3px 1px black;
+}
+.book-buttons {
+    margin-left: -280px;
+    /* margin-right: 10%; */
+    width: 100%;
+}
+
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 4%;
+    text-transform: capitalize;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cards-list {
+    margin-top: 40px;
+    display: flex;
+    /* justify-content: ; */
+}
+
+.cards-list img {
+    width: 100%;
+
+}
+
+.cards {
+    background-color: antiquewhite;
+    margin: 10px;
+}
+
+/* about start */
+.about-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.about {
+    margin-bottom: 70px;
+}
+
+.back img {
+    width: 100%;
+    margin-top: -20px;
+    margin-left: -30px;
+}
+
+.min-content {
+    margin-left: 30px;
+    width: 80%;
+}
+
+.back {
+    /* background-color: antiquewhite; */
+    border: 5px solid rgb(104, 36, 149);
+    margin-bottom: 40px;
+    height: 270px;
+
+}
+
+.min-content-1 {
+    display: flex;
+}
+
+.min-content-title {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+hr {
+    width: 70px;
+    height: 2px;
+    margin-top: 12px;
+    margin-left: 10px;
+    background-color: rgb(162, 21, 187);
+    ;
+}
+
+.col-2 {
+    background-color: rgb(143, 9, 166);
+    width: 100%;
+    color: rgb(239, 239, 239);
+    height: 270px;
+    border-radius: 40px 0px;
+}
+
+.col-1 {
+    padding: 20px;
+    width: 80%;
+    /* margin-right: 50px; */
+}
+
+.col-min {
+    padding: 20px;
+}
+
+.col-min p {
+    font-size: 17px;
+}
+
+.about-min-content {
+    margin-bottom: 80px;
+}
+
+/* contact */
+
+.min-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#googleMap {
+    width: 80%;
+    height: 200px;
+}
+
+
+.contact-input{
+    background-color:rgb(162, 21, 187);
+    width: 40%;
+    padding: 20px;
+    color: rgb(229, 229, 229);
+    align-content: center;
+}
+
+label{
+    font-size: 20px;
+    
+}
+input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.span-1{
+    color: rgb(156, 156, 156);
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.contact-1 p{
+    margin-bottom: 10px;
+}
+
+.contact-details h3{
+    margin-bottom: 10px;
+}
+
+.submit-btn{
+text-align: center;
+width: 30%;
+/* margin-left: 25%;
+margin-right: 25%; */
+text-transform: uppercase;
+}
+
+.contact-us{
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+/* footer */
+.footer-v1 {
+    background-color: rgba(239, 239, 239, 0.337);
+    padding: 20px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.container-1 {
+    /* max-width: 1400px; */
+    width: 100%;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+
+.col-md-3 {
+    max-width: calc(33.33% - 20px);
+    margin-right: 20px;
+}
+
+.headline {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+}
+
+.link-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out;
+}
+
+.link-list a:hover {
+    color: rgb(162, 21, 187);
+}
+
+.fa-copyright {
+    text-align: center;
+}
+
+span {
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 576px) {
+    .welcome {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-links {
+        font-size: small;
+    }
+
+    .book-buttons {
+        margin-left: 0;
+    }
+
+    .container {
+        margin: 4% 5%;
+    }
+
+    .cards-list {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .child-1 {
+        font-size: 30px;
+    }
+
+    .child-2 {
+        font-size: 20px;
+    }
+}
